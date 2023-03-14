@@ -122,9 +122,10 @@ h2{
     column-gap: 5px;
     position: relative;
     transition: all .5s ease;
+    cursor: pointer;
 
 }
-.card:hover{
+.card:hover, .card:focus{
     height: 44px;
 }
 
@@ -169,6 +170,7 @@ h2{
     border-radius: 20px;
     color: var(--white);
     transition: all .5s ease;
+    cursor: pointer;
     
 }
 .side-content button:hover{
