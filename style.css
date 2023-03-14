@@ -178,9 +178,10 @@ h2{
 svg{
     transition: all .4s ease;
 }
-.card:hover svg{
+.card:hover svg, .card:focus svg{
     rotate: -360deg;
 }
+
 
 @media screen and (min-width: 700px){
     .container{
